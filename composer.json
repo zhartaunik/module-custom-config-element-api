@@ -1,0 +1,21 @@
+{
+    "name": "perfect-code/module-custom-config-element-api",
+    "description": "Magento2 extension provides interfaces for implementing select objects and inject them into complex configuration fields.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0"
+    ],
+    "require": {
+        "php": "^7.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PerfectCode\\CustomConfigElementApi\\": ""
+        }
+    }
+}
+
